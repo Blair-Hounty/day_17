@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    padding: 20px 3%;  
+    background-color: navy;
+
+  }
+  nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+ nav div{
+    display: inline;
+    align-items: center;
+    justify-items: center; 
+    
+  }
+  .rot button{
+    margin-left: 20px; 
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+  }
+  .got{
+    height: 30px; 
+    width: 30px; 
+    border-radius: 60px;
+    border: none;
+    
+  }
+  .reg{
+    border: 2px;
+    
+  }
+.he{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.he button{
+    margin-left: 20px; 
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}

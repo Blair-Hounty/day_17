@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:black;
+    padding: 0 5%;
+}
+nav {
+    display: flex;
+     justify-content: right;
+}
+ul li{
+    padding: 15px 16px;
+    display: inline-block;
+    position: relative;
+
+}
+ul li a{
+    color: orangered;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: 0.5s;
+    background-color: red;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    min-width: 50px;
+    background-color: rgb(2, 2, 2);
+    box-shadow: rgba(0,0,0,0.7);
+    
+}
+ul li:hover .dropdown{
+    display: block;
+}
+.dropdown a{
+    color: rgb(249, 245, 245);
+}
